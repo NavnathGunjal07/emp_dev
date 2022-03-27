@@ -15,6 +15,11 @@ module.exports.index = async function(req, res){
        
     })
 }
+module.exports.home = async function(req, res){
+
+    return res.send("<h1>API Assignments</h1>")
+}
+
 
 //adding new improvement in Behavior using api
 module.exports.improve = async function(req, res){
